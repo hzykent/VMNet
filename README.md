@@ -88,11 +88,11 @@ If you find our work useful in your research, please consider citing:
       CUDA_VISIBLE_DEVICES=0 python run.py --train_benchmark --exp_name name_you_want --data_path path/to/processed_data
 
 ## Inference
-* Validation. Pretrained model is provided in check_points/val_split (73.3% mIoU on ScanNet Val).
+* Validation. <a href="https://drive.google.com/drive/folders/1G8ug8C7DCrHPeZ_91hM7TSVCTgbNajN0?usp=sharing">Pretrained model</a> (73.3% mIoU on ScanNet Val). Please download and save as check_points/val_split.
 
       CUDA_VISIBLE_DEVICES=0 python run.py --val --exp_name val_split --data_path path/to/processed_data
 
-* Test. Pretrained model is provided in check_points/test_split (74.6% mIoU on ScanNet Test). TxT files for benchmark submission will be saved in directory test_results/.
+* Test. <a href="https://drive.google.com/drive/folders/1j5_uTL4xrsVZ5svPOp3LENcgvsJehDbx?usp=sharing">Pretrained model</a> (74.6% mIoU on ScanNet Test). Please download and save as check_points/test_split. TxT files for benchmark submission will be saved in directory test_results/.
 
       CUDA_VISIBLE_DEVICES=0 python run.py --test --exp_name test_split --data_path path/to/processed_data
       
