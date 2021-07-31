@@ -1,1 +1,0 @@
-TxT files for ScanNet benchmark are saved in here.
