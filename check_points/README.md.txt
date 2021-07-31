@@ -1,1 +1,0 @@
-Trained Models are saved in here.
