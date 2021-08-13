@@ -36,7 +36,7 @@ If you find our work useful in your research, please consider citing:
      - torch-geometric 1.6.3
      - torchsparse 1.1.0
 
-* We adapted <a href="https://github.com/cnr-isti-vclab/vcglib">VCGlib</a> to generate pooling trace maps for vertex clustering and quadric error metrics.
+* We adapted <a href="https://github.com/JonasSchult/vcglib">VCGlib</a> (**Update**: change the link from the official repository to the fork used in DCM-Net, there seems to be a difference in the implementation of tridecimator) to generate pooling trace maps for vertex clustering and quadric error metrics.
 
       git clone https://github.com/cnr-isti-vclab/vcglib
 
