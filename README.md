@@ -38,7 +38,7 @@ If you find our work useful in your research, please consider citing:
 
 * We adapted <a href="https://github.com/JonasSchult/vcglib">VCGlib</a> (**Update**: change the link from the official repository to the fork used in DCM-Net, there seems to be a difference in the implementation of tridecimator) to generate pooling trace maps for vertex clustering and quadric error metrics.
 
-      git clone https://github.com/cnr-isti-vclab/vcglib
+      git clone https://github.com/JonasSchult/vcglib
 
       # QUADRIC ERROR METRICS
       cd vcglib/apps/tridecimator/
