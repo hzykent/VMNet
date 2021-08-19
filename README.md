@@ -32,9 +32,9 @@ If you find our work useful in your research, please consider citing:
      - cudatoolkit 10.0.130
      - cuDNN 7.6.5
 
-* VMNet depends on the <a href="https://github.com/rusty1s/pytorch_geometric">torch-geometric</a> and <a href="https://github.com/mit-han-lab/torchsparse">torchsparse</a> libraries. Please follow their installation instructions. One configuration has been tested, higher versions should work as well:
-(**Update**: torch-geometric made some changes in their newest version, the pre-trained models may be loaded correctly by version 1.6.3 only)
-(**Update**: in their newest version, torchsparse utilizes some newly introduced features of pytorch, please make sure the Pytorch and torchsparse packages are compatible in your system)
+* VMNet depends on the <a href="https://github.com/rusty1s/pytorch_geometric">torch-geometric</a> and <a href="https://github.com/mit-han-lab/torchsparse">torchsparse</a> libraries. Please follow their installation instructions. One configuration has been tested: 
+(**Update**: higher versions may not work since both torch-geometric and torchsparse have made some changes that are incompatible with the old versions)
+
      - torch-geometric 1.6.3
      - torchsparse 1.1.0
 
