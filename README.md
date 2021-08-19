@@ -15,7 +15,7 @@ In recent years, sparse voxel-based methods have become the state-of-the-arts fo
 If you find our work useful in your research, please consider citing:
 
     @InProceedings{hu2021vmnet,
-      title={Walk in the Cloud: Learning Curves for Point Clouds Shape Analysis},
+      title={VMNet: Voxel-Mesh Network for Geodesic-Aware 3D Semantic Segmentation},
       author={Hu, Zeyu and Bai, Xuyang and Shang, Jiaxiang and Zhang, Runze and Dong, Jiayu and Wang, Xin and Sun, Guangyuan and Fu, Hongbo and Tai, Chiew-Lan},
       booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
       month = {October},
