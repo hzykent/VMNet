@@ -37,7 +37,7 @@ def clear_folder(folder: str):
         try:
             if os.path.isfile(file_path) and ('.csv' in file_path or '.ply' in file_path):
                 os.unlink(file_path)
-        except Exception as e:
+        except OSError as e:
             print(e)
 
 
